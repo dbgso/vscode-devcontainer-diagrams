@@ -3,8 +3,12 @@
     "dockerComposeFile": "./docker-compose.yml",
     "service": "main",
     "settings": {
+        "plantuml.render": "PlantUMLServer",
+        "plantuml.server": "http://plantuml:8080"
     },
     "extensions": [
-    ],
+		"jebbs.plantuml",
+		"kaishuu0123.vscode-erd-preview"
+	],
     "workspaceFolder": "/data"
 }

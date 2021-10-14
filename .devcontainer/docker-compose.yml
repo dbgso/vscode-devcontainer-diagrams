@@ -5,5 +5,8 @@ services:
     build: .
     tty: true
     volumes:
-      - ../data:/data
+      - ../:/data
     working_dir: /data
+  plantuml:
+    image: plantuml/plantuml-server
+    tty: true
